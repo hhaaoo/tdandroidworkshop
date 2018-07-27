@@ -1,1 +1,1 @@
-include ':app', ':challenge2', ':challenge3', ':challenge4'
+include ':challenge1', ':challenge2', ':challenge3', ':challenge4'
