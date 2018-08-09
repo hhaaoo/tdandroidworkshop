@@ -20,12 +20,7 @@
         android:text="$0"
         android:id="@+id/amount" />
 
-    <Button xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/button_decrease"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-"
-        android:onClick="decreaseAmount" />
+    <!-- TODO: 1. add one more button to decrease the amount here. -->
 
     <Button xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/button_pay"

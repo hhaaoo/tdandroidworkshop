@@ -9,17 +9,16 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int amount = 0;
+    // TODO: 3-1 declare private variable amount here.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        display(amount);
+        display(0);
     }
 
     public void payOrder(View view) {
-        //TODO: Make a toast message.
         Context context = getApplicationContext();
         CharSequence text = "Hello toast!";
         int duration = Toast.LENGTH_SHORT;
@@ -29,15 +28,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void increaseAmount(View view) {
-        amount = amount + 1;
-        display(amount);
+        // TODO: 3-2 add logic to the button onClick functions with a variable called "amount"
+        display(10);
     }
 
-    public void decreaseAmount(View view) {
-        amount = amount - 1;
-        display(amount);
 
-    }
+    // Step 1 is in activity_main.xml file
+    // TODO: 2. connect decrease Button to with
+
+
 
     private void display(int amount) {
         TextView amountTextView = findViewById(R.id.amount);
