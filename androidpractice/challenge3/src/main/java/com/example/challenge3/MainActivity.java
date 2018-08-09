@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
 
     // TODO: 1 Create a new Activity called "ReceiptActivity"
     // TODO: 2 Create a new layout file called "activity_receipt"
-    // TODO: 3 Add the newly created ReceiptActivity to AndroidManifest.xml
 
     private int amount = 0;
 
@@ -24,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void payOrder(View view) {
-        // TODO: 4 Link Activities from main to receipt
-        // TODO: 5 Pass the amount information from main to receipt
+        // TODO: 3 Link Activities from main to receipt
+        // TODO: 4 Pass the amount information from main to receipt
     }
 
     public void increaseAmount(View view) {

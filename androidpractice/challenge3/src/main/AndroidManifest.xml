@@ -16,9 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- TODO: 3 Add the newly created ReceiptActivity here -->
-
     </application>
 
 </manifest>
