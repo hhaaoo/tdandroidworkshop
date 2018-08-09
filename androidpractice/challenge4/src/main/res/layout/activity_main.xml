@@ -47,6 +47,7 @@
         android:textSize="30sp"
         android:text="Paid by" />
 
+    <!-- TODO: 2 Add an onClick action on the card image -->
     <ImageView
         android:layout_below="@+id/paid_by"
         android:layout_width="200dp"
@@ -55,11 +56,11 @@
         android:src="@drawable/td_card"
         android:onClick="getCardDetails"/>
 
+    <!-- TODO: 1 style the button to make it located at the bottom of the screen, matching the width of the screen -->
     <Button xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/button_pay"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:text="Pay now"
         android:textColor="@android:color/white"
         android:background="@android:color/holo_green_dark"

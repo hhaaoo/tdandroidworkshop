@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    // TODO: 3 Add one more Activity/layout/manifest to show card details.
+
     private int amount = 0;
 
     @Override
@@ -35,10 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void getCardDetails(View view) {
-        Intent intent = new Intent(this, CardActivity.class);
-        startActivity(intent);
-    }
+    // TODO: 2 Add an onClick action on the card image.
 
     private void display(int amount) {
         TextView amountTextView = findViewById(R.id.amount);
