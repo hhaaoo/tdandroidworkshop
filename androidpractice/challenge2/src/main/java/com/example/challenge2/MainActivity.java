@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     // Step 1 is in activity_main.xml file
-    // TODO: 2. connect decrease Button to with
+    // TODO: 2. connect decrease Button to Activity
 
 
 
